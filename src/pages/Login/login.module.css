@@ -1,0 +1,40 @@
+.logindiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 22%;
+  margin: auto;
+  margin-top: 8%;
+  padding: 5% 3%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.logindiv > input {
+  height: 35px;
+  width: 90%;
+  background-color: rgb(238, 234, 234);
+  border: none;
+  border: 1px solid rgb(168, 166, 166);
+  border-radius: 10px;
+  text-indent: 15px;
+}
+
+.logindiv > div > h1 {
+  font-size: 20px;
+}
+
+.logindiv > div > p {
+  font-size: 13px;
+  margin-top: -10px;
+  color: rgb(155, 148, 148);
+}
+
+.logindiv > button {
+  background-color: tomato;
+  color: white;
+  border: none;
+  height: 35px;
+  width: 92%;
+  border-radius: 10px;
+}
